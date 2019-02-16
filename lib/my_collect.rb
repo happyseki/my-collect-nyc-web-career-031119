@@ -15,8 +15,8 @@ def my_collect(collection)
   i = 0
  while i < collection.length
    upcase = word.upcase 
-   yield(first_name)
-   new << first_name
+   yield(upcase)
+   new << upcase
    i += 1
  end
  return new
