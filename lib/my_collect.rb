@@ -1,6 +1,6 @@
-def my_collect(array)
+def my_collect(collection)
   i = 0
- while i < array.length
+ while i < collection.length
    
  end
 end
