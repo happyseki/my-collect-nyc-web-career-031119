@@ -7,6 +7,13 @@ def my_collect(collection)
    new << first_name
    i += 1
  end
+ 
+ while i < collection.length
+ upcase = collection[i].upcase
+   yield(upcase)
+   new << upcase 
+   i += 1
+ end
  return new
 end
 
